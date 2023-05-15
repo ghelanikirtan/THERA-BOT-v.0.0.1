@@ -4,6 +4,17 @@ body {
   margin: 0;
   padding: 0;
 }
+body::-webkit-scrollbar {
+  width: 10px; /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: transparent; /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #f9004d; /* цвет плашки */
+  border-radius: 20px; /*закругления плашки*/
+  border: 2px solid white; /* padding вокруг плашки */
+}
 
 .App {
   display: flex;
@@ -47,6 +58,17 @@ body {
   border-radius: 20px;
   margin: 20px;
   overflow: hidden;
+}
+.chatbox::-webkit-scrollbar {
+  width: 10px; /* ширина scrollbar */
+}
+.chatbox::-webkit-scrollbar-track {
+  background: transparent; /* цвет дорожки */
+}
+.chatbox::-webkit-scrollbar-thumb {
+  background-color: #f9004d; /* цвет плашки */
+  border-radius: 20px; /*закругления плашки*/
+  border: 2px solid white; /* padding вокруг плашки */
 }
 
 .chat-log {
